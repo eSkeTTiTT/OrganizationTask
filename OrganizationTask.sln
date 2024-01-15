@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrganizationTask", "OrganizationTask\OrganizationTask.csproj", "{7853E416-A17F-44A1-B2FD-34A38935222C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{09423325-759E-4241-B31F-9A25C9A2201D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{1B384026-8984-4AB9-8698-6456B9820D76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{008FE612-4B1C-4366-A37D-4A68969E2186}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrganizationTask.WepApiLib", "Api\OrganizationTask.WepApiLib\OrganizationTask.WepApiLib.csproj", "{5E14F134-F6A7-4F4D-A8DD-5E705C9B1A68}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrganizationTask.Domain", "Core\OrganizationTask.Domain\OrganizationTask.Domain.csproj", "{0A37A229-D287-4066-8138-62659A681B68}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrganizationTask.Postgres", "Infrastructure\OrganizationTask.Postgres\OrganizationTask.Postgres.csproj", "{EF9340E1-DD73-4E1C-87DC-6BD3C9AC0535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Organization.Task.App", "Core\Organization.Task.App\Organization.Task.App.csproj", "{4A3D5EEA-3B5D-451A-80BF-F972D67F79D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7853E416-A17F-44A1-B2FD-34A38935222C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7853E416-A17F-44A1-B2FD-34A38935222C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7853E416-A17F-44A1-B2FD-34A38935222C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7853E416-A17F-44A1-B2FD-34A38935222C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E14F134-F6A7-4F4D-A8DD-5E705C9B1A68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E14F134-F6A7-4F4D-A8DD-5E705C9B1A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E14F134-F6A7-4F4D-A8DD-5E705C9B1A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E14F134-F6A7-4F4D-A8DD-5E705C9B1A68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A37A229-D287-4066-8138-62659A681B68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A37A229-D287-4066-8138-62659A681B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A37A229-D287-4066-8138-62659A681B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A37A229-D287-4066-8138-62659A681B68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF9340E1-DD73-4E1C-87DC-6BD3C9AC0535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF9340E1-DD73-4E1C-87DC-6BD3C9AC0535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF9340E1-DD73-4E1C-87DC-6BD3C9AC0535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF9340E1-DD73-4E1C-87DC-6BD3C9AC0535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A3D5EEA-3B5D-451A-80BF-F972D67F79D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A3D5EEA-3B5D-451A-80BF-F972D67F79D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A3D5EEA-3B5D-451A-80BF-F972D67F79D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A3D5EEA-3B5D-451A-80BF-F972D67F79D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5E14F134-F6A7-4F4D-A8DD-5E705C9B1A68} = {1B384026-8984-4AB9-8698-6456B9820D76}
+		{0A37A229-D287-4066-8138-62659A681B68} = {09423325-759E-4241-B31F-9A25C9A2201D}
+		{EF9340E1-DD73-4E1C-87DC-6BD3C9AC0535} = {008FE612-4B1C-4366-A37D-4A68969E2186}
+		{4A3D5EEA-3B5D-451A-80BF-F972D67F79D8} = {09423325-759E-4241-B31F-9A25C9A2201D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {117E1350-4B93-4E0F-80B7-EDB71C1B2CC5}
+	EndGlobalSection
+EndGlobal
